@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+
+/* navigation */
+body{ 
+ background-image: url(https://media.istockphoto.com/id/1146532466/photo/abstract-blue-digital-background.webp?b=1&s=170667a&w=0&k=20&c=dSA5-nFFQ2szrdDxg8qHy67azMPkshnzPgtBgSsECkY=);
+   background-size: 100% 45%;
+
+   background-repeat: no-repeat;
+}
+#portfolio{
+    /* order: 2; */
+    width: 30%;
+    margin: 15px 350px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Kanit', sans-serif;
+} 
+.container{
+    display: flex;
+    width: 100%;
+}
+a{
+    text-decoration:none;
+    font-family: 'Kanit', sans-serif;
+}
+a:hover{
+    background-color: pink;
+    /* color: black; */
+}
+#navbar{
+    color: white;
+}
+ul{
+    display: flex;
+    color: white;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+li{
+    font-size: 20px;
+   color: white;
+   list-style-type: none;
+   margin: 15px 20px;
+   padding: 2px 12px;
+}
+/* home */
+.container1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+
+}
+#hello{
+    font-size: 60px;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Exo 2', */
+
+}
+#enthu{
+    font-size: 25px;
+    color: aliceblue;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 200px;
+    animation: typing 4s steps(40) 1;
+    font-family: 'Playpen Sans', cursive;
+    /* border: 2px solid red; */
+}
+@keyframes typing {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 19%;
+    } 
+}
+h2{
+    margin-left:650px;
+    margin-top: 20px;
+    padding: 20px 0px;
+    font-size: 40px;
+    font-family: 'Playpen Sans', cursive;
+
+}
+.Aboutus{
+    background-color:rgb(178 223 234);
+}
+img{
+    height: 400px;
+    width: 400px;
+    margin-left: 70px;
+    padding:12px ;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+}
+#me{
+    /* border: 2px solid red; */
+    height: 200px;
+    border-radius: 20px;
+    width: 700px;
+    margin-left: 200px;
+    margin-right: 20px;
+    padding: 140px 80px;
+    font-size: 20px;
+    text-align: justify;
+}
+/* myskills */
+.myskills{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.img1{
+    display: flex;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+}
+.bar{
+    background-color: white;
+    width: 130px;
+    height: 20px;
+    margin-top: 80px;
+    border: 2px solid #2076e9;
+    border-radius: 12px;
+}
+.bar1{
+    width:19px ;
+    background-color: #2076e9;
+    height: 20px;
+    border-radius: 6px;
+    color: black;
+    text-align: center;
+}
+#cpp{
+    animation: cpp 2s ease-in-out 10s 1 forwards;
+}
+
+@keyframes cpp {
+    0%{
+        width: 19px;
+    }
+    100%{
+        width: 110px;
+    }  
+}
+#css{
+    animation: css 2s ease-in-out 10s 1 forwards
+}
+@keyframes css {
+    0%{
+        width: 19px;
+    }
+    100%{
+        width: 102px;
+    }  
+}
+#html{
+    animation: html 2s ease-in-out 10s 1 forwards;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes html {
+    0%{
+        width: 19px;
+    }
+    100%{
+        width: 120px;
+    }
+    
+}
+#js{
+    animation: html 2s ease-in-out 10s 1 forwards;
+}
+@keyframes html {
+    0%{
+        width: 19px;
+    }
+    100%{
+        width: 90px;
+    }
+    
+}
+/* contactme */
+.contactme{
+    background-color: aqua;
+}
+.contact {
+    /* margin: 50px; */
+    margin-top: 50px;
+     /* display: flex;  */
+    /* flex-direction: column;
+    justify-content: center; */ 
+
+}
+form{
+    margin: 0 450px;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+    /* border: 2px solid; */
+    line-height: 40px;
+   
+}
+.info{
+    display: flex;
+    background-color:#413b3b;
+    color: azure;
+}
+.personal{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    text-align: justify;
+}
+.linkdin{
+    margin-top: 20px;
+    margin-left: 700px;
+    /* margin-right: 50px; */
+
+}
+
+
